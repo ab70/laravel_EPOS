@@ -1,0 +1,256 @@
+body, .container-fluid{
+    background-color: #402a6a;
+}
+.mynav{
+    background-color: #250c54;
+}
+.category{
+    background-color: #AD426C;
+    border-radius: 10px;
+}
+.active{
+    color: black!important;
+    background-color: #f19600!important;
+}
+.mypill{
+    color: white;
+    background-color: #C76548;
+    width: 160px;
+    height: 90px;
+    border-radius: 5px;
+}
+
+.mypill2{
+    color: white;
+    background-color: #5CA8CA   ;
+    width: 175px;
+    height: 140px;
+    border-radius: 5px;
+}
+.mypill:hover{
+    color: white!important;
+    background-color: #f19600;
+}
+.mypill2:hover{
+    color: black!important;
+    background-color: #A2E0FC;
+}
+.avatar {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.bg-default, .btn-default{
+    background-color: #f2f3f8;
+}
+.btn-error{
+    color: #ef5f5f;
+}
+
+.item{
+    min-height: 350px;
+    width: 100%;
+    background-color: #1867A8;
+    border-radius: 10px;
+}
+
+.scroll{
+    height: 290px;
+    overflow: auto;
+}
+
+.additives{
+    background-color: #f2f3f7;
+    border-radius: 5px;
+}
+
+.order{
+    background-color: #402a6a;
+    /*min-height: 100vh;*/
+}
+.orderCard{
+    background-color: #f2f3f7;
+}
+.btnav{
+    background-color: #ef5f5f;
+    color: white;
+    width: 120px;
+}
+.btnav:hover{
+    background-color: #f19600;
+    color: black;
+}
+.hide{
+    display: none;
+}
+
+/* new modal css for new numpad */
+.modal-open .modal{
+    overflow-y: hidden;
+}
+.modal-content {
+    background-color: white;
+}
+.mynmbbtn {
+    width: 70px;
+    height: 70px;
+    font-size: 30px;
+    background-color: #5327a8;
+    color: white;
+    border: 1px solid #666;
+}
+.mynmbbtn:hover {
+    background-color: #8d66d9;
+    color: black;
+}
+
+.mysavebtn {
+
+    width: 300px;
+    height: 75px;
+    font-size: 30px;
+
+}
+
+.mydelbtn {
+
+    width: 100px;
+    height: 75px;
+    font-size: 30px;
+
+}
+
+.myinput {
+    width: 470px;
+}
+.dataTables_paginate{
+    margin-bottom:20px!important;
+}
+.paginate_button{
+    margin-left:3px;
+    margin-right:3px;
+    width: 70px !important;
+    height:50px !important;
+    font-size: 20px !important;
+    color:black;
+    text-align:center;
+    padding: 5px 30px 5px 30px;
+   
+   border-style:solid;
+   border-color:black;
+   border-width:1px;
+   background-color:white;
+   border-radius:5px;
+
+}
+.dataTables_info{
+   margin-left: 10px;
+}
+
+.paginate_button.current {
+    background-color:#ef5f5f !important;
+    border-color: #ef5f5f !important;
+    color:white;
+    border-radius:5px;
+} 
+.paginate_button.previous.disabled{
+    background-color:#e0e0e0;
+}
+.paginate_button.next.disabled{
+    background-color:#e0e0e0;
+}
+
+/*month select css*/
+
+#month{
+    padding: 10px 50px 10px 50px;
+    
+}
+#month .selected{
+    font-size:18px;
+}
+#month_option{
+   font-size:25px;
+   margin-top:30px;
+   margin-bottom:30px;
+}
+/* new modal css for new numpad */
+
+
+
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+    ::-webkit-scrollbar {
+    width: 0px; /* remove scrollbar space /
+    background: transparent; / optional: just make scrollbar invisible /
+    }
+    / optional: show position indicator in red */
+    ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+    }
+
+
+    
+    td,
+    th,
+    tr,
+    table {
+        border-top: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    td.description,
+    th.description {
+        width: 50px;
+        max-width: 50px;
+        word-break: break-all;
+    }
+
+    td.sl,
+    th.sl {
+        width: 20px;
+        max-width: 20px;
+        word-break: break-all;
+    }
+
+    td.quantity,
+    th.quantity {
+        width: 40px;
+        max-width: 40px;
+        word-break: break-all;
+    }
+
+    td.price,
+    th.price {
+        width: 40px;
+        max-width: 40px;
+        word-break: break-all;
+    }
+
+    .centered {
+        text-align: center;
+        align-content: center;
+    }
+
+    .ticket {
+        width: 155px;
+        max-width: 155px;
+    }
+
+    img {
+        max-width: inherit;
+        width: inherit;
+    }
+    
+
+    @media print {
+
+        .hidden-print,
+        .hidden-print * {
+            display: none !important;
+        }
+    }
